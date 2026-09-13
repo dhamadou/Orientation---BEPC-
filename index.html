@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orientation Post-BEPC Niger</title>
+<meta name="description" content="Recherchez facilement le lieu d'orientation post-BEPC d'un élève au Niger : nom, établissement d'accueil, région.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="brand-mark">🇳🇪</div>
+      <div>
+        <h1>Orientation Post-BEPC — Niger</h1>
+        <p class="subtitle">Trouvez rapidement l'établissement d'affectation d'un élève</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="notice" id="notice">
+    <strong>⚠️ Outil indépendant, non officiel.</strong>
+    Ce site a été réalisé à partir des décisions officielles du Ministère de l'Éducation Nationale, numérisées et
+    traitées automatiquement (OCR). Des erreurs de reconnaissance sont possibles (accents, orthographe, dates).
+    <button id="toggle-coverage" class="link-btn">Voir la couverture exacte des données ▾</button>
+    <div id="coverage-detail" class="coverage-detail hidden"></div>
+  </section>
+
+  <section class="search-panel">
+    <div class="search-row">
+      <input type="text" id="search-input" placeholder="Tapez le nom ou prénom de l'élève…" autocomplete="off">
+      <select id="year-select">
+        <option value="">Toutes les années</option>
+      </select>
+    </div>
+
+    <details class="filters">
+      <summary>Filtres avancés (établissement d'accueil, région, sexe…)</summary>
+      <div class="filters-grid">
+        <div class="field">
+          <label for="school-select">École / Établissement d'accueil</label>
+          <select id="school-select"><option value="">Toutes les écoles</option></select>
+        </div>
+        <div class="field">
+          <label for="region-select">Région d'origine</label>
+          <select id="region-select"><option value="">Toutes les régions</option></select>
+        </div>
+        <div class="field">
+          <label for="sexe-select">Sexe</label>
+          <select id="sexe-select">
+            <option value="">Tous</option>
+            <option value="M">Masculin</option>
+            <option value="F">Féminin</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="origin-select">Établissement d'origine (CEG/CES/CSP…)</label>
+          <select id="origin-select"><option value="">Tous</option></select>
+        </div>
+      </div>
+    </details>
+
+    <div class="result-meta">
+      <span id="result-count">Tapez un nom ou choisissez un filtre pour commencer.</span>
+    </div>
+  </section>
+
+  <section class="results">
+    <div id="results-list"></div>
+    <div id="load-more-wrap" class="hidden">
+      <button id="load-more">Afficher plus de résultats</button>
+    </div>
+  </section>
+
+  <section class="browse-panel">
+    <h2>Parcourir par établissement d'accueil</h2>
+    <p>Sélectionnez une école pour afficher la liste complète des élèves qui y sont orientés.</p>
+    <div id="school-browse-list" class="school-chip-list"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Sources : Décision N°0131/MEN/A/PL/SG/DL/DGPQ/DECOS du 07 septembre 2026 (année scolaire 2026-2027) et
+      Décision d'orientation post-BEPC 2025-2026, Ministère de l'Éducation Nationale, de l'Alphabétisation et de
+      la Promotion des Langues — République du Niger.</p>
+    <p>Données extraites par reconnaissance optique de caractères à partir de documents scannés : en cas de doute,
+      vérifiez toujours auprès de votre établissement, de la DREN ou du document officiel.</p>
+    <p class="credit">Prototype développé par NOVATECH Solutions Technologiques — outil indépendant mis à disposition
+      pour faciliter l'accès à l'information publique.</p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
