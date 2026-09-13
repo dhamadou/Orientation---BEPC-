@@ -1,10 +1,33 @@
 {
-  "generated": "placeholder",
-  "datasets": [
-    {
-      "annee": "2026-2027",
-      "description": "Décision N°0131/MEN/A/PL/SG/DL/DGPQ/DECOS du 07/09/2026 — données de test (placeholder)",
-      "sections": ["Données de démonstration en cours de génération…"]
-    }
-  ]
+ "generated": "2026-09-13T16:38:57.905042Z",
+ "datasets": [
+  {
+   "annee": "2026-2027",
+   "description": "Décision N°0131/MEN/A/PL/SG/DL/DGPQ/DECOS du 07/09/2026. Document officiel de 50 pages ; seules les pages 1 à 24 étaient disponibles pour cet outil (658 élèves, 8 établissement(s) d'accueil couverts sur ces pages). Les pages 25 à 50 (sections suivantes de la liste alphabétique / autres écoles) ne sont pas encore intégrées. 9 ligne(s) illisible(s) par la reconnaissance automatique ont été exclues plutôt que d'afficher une donnée erronée.",
+   "sections": [
+    "ECOLE DES MINES DE L’AÏR (EMAIR) D’AGADEZ — 78 élève(s) (p.2-5)",
+    "LYCEE TECHNIQUE DAN KASSAWA (LTDK) DE MARADI — 114 élève(s) (p.5-8)",
+    "LYCEE PROFESSIONNEL DE HÔTELLERIE ET DU TOURISME (LPHT) D’AGADEZ — 35 élève(s) (p.9-10)",
+    "LYCEE TECHNOLOGIQUE DU PETROLE DE DIFFA (LTPD) — 163 élève(s) (p.10-15)",
+    "LYCEE TECHNOLOGIQUE DE DOUTCHI — 44 élève(s) (p.15-16)",
+    "LYCEE D'ENSEIGNEMENT PROFESSIONNEL ISSA BERI DE NIAMEY — 137 élève(s) (p.17-21)",
+    "LYCEE PROFESSIONNEL KALMAHARO DE NIAMEY — 74 élève(s) (p.22-24)",
+    "LYCEE PROFESSIONNEL DE TAHOUA — 13 élève(s) (p.24)"
+   ]
+  },
+  {
+   "annee": "2025-2026",
+   "description": "Décision d'orientation post-BEPC 2025-2026 (« Suite 3 et fin du document »). Document officiel de 54 pages ; seules les pages 37 à 54 (fin du document) étaient disponibles pour cet outil (464 élèves, 8 établissement(s) d'accueil couverts sur ces pages). Les pages 1 à 36 (début de la liste) ne sont pas encore intégrées : les premiers élèves de cette liste (avant la première école identifiée ci-dessous) sont affichés avec une école d'accueil « non identifiée » car leur section apparaît sur une page manquante. 6 ligne(s) illisible(s) par la reconnaissance automatique ont été exclues plutôt que d'afficher une donnée erronée.",
+   "sections": [
+    "École non identifiée (page source manquante) — 133 élève(s) (p.1-5)",
+    "CENTRE DES METIERS DU CUIR ET D’ART DU NIGER (CMCAN) DE NIAMEY — 44 élève(s) (p.5-7)",
+    "ECOLE NATIONALE DE SANTE PUBLIQUE (ENSP) D’AGADEZ — 19 élève(s) (p.7-8)",
+    "ECOLE NATIONALE DE SANTE PUBLIQUE (ENSP) DE DIFFA — 26 élève(s) (p.8-9)",
+    "ECOLE NATIONALE DE SANTE PUBLIQUE (ENSP) DE NIAMEY — 50 élève(s) (p.9-10)",
+    "ECOLE NATIONALE DE SANTE PUBLIQUE (ENSP) DE TAHOUA — 23 élève(s) (p.11)",
+    "ECOLE NATIONALE DE SANTE PUBLIQUE (ENSP) DE ZINDER — 42 élève(s) (p.12-13)",
+    "INSTITUT DE FORMATION EN ALPHABETISATION ET EDUCATION NON FORMELLE (IFAENF) DE NIAMEY — 127 élève(s) (p.13-18)"
+   ]
+  }
+ ]
 }
