@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img" aria-label="Armoiries de la République du Niger">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd76a"/>
+      <stop offset="1" stop-color="#e0a624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- flanking flags on poles -->
+  <g>
+    <!-- left pole + finial -->
+    <rect x="27" y="16" width="4" height="118" fill="#8a6d1f"/>
+    <path d="M29 6 L35 18 L23 18 Z" fill="url(#gold)"/>
+    <!-- left flag: orange / white+disc / green, swept down-right, notched tail -->
+    <path d="M29 22 L104 46 L96 62 L88 78 L60 92 L29 78 Z" fill="#e0592b"/>
+    <path d="M29 45 L96 62 L88 78 L60 92 L44 84 L29 62 Z" fill="#f4f2ea"/>
+    <circle cx="66" cy="65" r="8" fill="#e0592b"/>
+    <path d="M29 68 L60 92 L44 100 L29 90 Z" fill="#1c8a4b"/>
+
+    <!-- right pole + finial -->
+    <rect x="269" y="16" width="4" height="118" fill="#8a6d1f"/>
+    <path d="M271 6 L277 18 L265 18 Z" fill="url(#gold)"/>
+    <!-- right flag mirrored -->
+    <path d="M271 22 L196 46 L204 62 L212 78 L240 92 L271 78 Z" fill="#e0592b"/>
+    <path d="M271 45 L204 62 L212 78 L240 92 L256 84 L271 62 Z" fill="#f4f2ea"/>
+    <circle cx="234" cy="65" r="8" fill="#e0592b"/>
+    <path d="M271 68 L240 92 L256 100 L271 90 Z" fill="#1c8a4b"/>
+  </g>
+
+  <!-- shield -->
+  <path d="M150 20
+           C 132 34, 108 40, 84 40
+           C 84 96, 92 142, 118 172
+           C 130 186, 140 194, 150 200
+           C 160 194, 170 186, 182 172
+           C 208 142, 216 96, 216 40
+           C 192 40, 168 34, 150 20 Z"
+        fill="#0d6b38" stroke="#0a4a27" stroke-width="2.5"/>
+
+  <!-- clip contents to shield -->
+  <clipPath id="shieldClip">
+    <path d="M150 20
+             C 132 34, 108 40, 84 40
+             C 84 96, 92 142, 118 172
+             C 130 186, 140 194, 150 200
+             C 160 194, 170 186, 182 172
+             C 208 142, 216 96, 216 40
+             C 192 40, 168 34, 150 20 Z"/>
+  </clipPath>
+
+  <g clip-path="url(#shieldClip)">
+    <!-- sun burst -->
+    <g transform="translate(150,100)" fill="url(#gold)">
+      <circle r="15"/>
+      <g id="rays">
+        <polygon points="0,-36 5,-18 -5,-18"/>
+      </g>
+      <use href="#rays" transform="rotate(30)"/>
+      <use href="#rays" transform="rotate(60)"/>
+      <use href="#rays" transform="rotate(90)"/>
+      <use href="#rays" transform="rotate(120)"/>
+      <use href="#rays" transform="rotate(150)"/>
+      <use href="#rays" transform="rotate(180)"/>
+      <use href="#rays" transform="rotate(210)"/>
+      <use href="#rays" transform="rotate(240)"/>
+      <use href="#rays" transform="rotate(270)"/>
+      <use href="#rays" transform="rotate(300)"/>
+      <use href="#rays" transform="rotate(330)"/>
+    </g>
+
+    <!-- crossed spear and arrow, upper-left -->
+    <g stroke="url(#gold)" stroke-width="3.4" stroke-linecap="round" fill="url(#gold)">
+      <line x1="98" y1="52" x2="126" y2="98"/>
+      <polygon points="98,52 106,54 100,62"/>
+      <line x1="126" y1="50" x2="100" y2="98"/>
+      <polygon points="126,50 122,58 116,52"/>
+      <path d="M120 92 l6 10 l6 -4 z" stroke="none"/>
+    </g>
+
+    <!-- millet spray, upper-right -->
+    <g stroke="url(#gold)" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <path d="M176 96 C 182 78, 190 62, 202 50"/>
+      <path d="M182 90 C 190 74, 198 60, 208 50"/>
+      <path d="M188 84 C 196 70, 202 60, 210 52"/>
+    </g>
+    <g fill="url(#gold)">
+      <ellipse cx="203" cy="50" rx="3.6" ry="6" transform="rotate(35 203 50)"/>
+      <ellipse cx="197" cy="58" rx="3.3" ry="5.6" transform="rotate(35 197 58)"/>
+      <ellipse cx="191" cy="66" rx="3" ry="5.2" transform="rotate(35 191 66)"/>
+      <ellipse cx="209" cy="52" rx="3.2" ry="5.4" transform="rotate(35 209 52)"/>
+      <ellipse cx="203" cy="60" rx="3" ry="5" transform="rotate(35 203 60)"/>
+      <ellipse cx="197" cy="68" rx="2.8" ry="4.8" transform="rotate(35 197 68)"/>
+    </g>
+
+    <!-- zebu head, lower centre: two curved horns + a simple face -->
+    <g fill="url(#gold)" stroke="#a97a12" stroke-width="1">
+      <path d="M129 148 C 104 146, 84 130, 78 104 C 92 112, 104 118, 116 122
+               C 108 126, 104 132, 104 138 C 112 136, 120 134, 127 134 Z"/>
+      <path d="M171 148 C 196 146, 216 130, 222 104 C 208 112, 196 118, 184 122
+               C 192 126, 196 132, 196 138 C 188 136, 180 134, 173 134 Z"/>
+      <path d="M150 132 C 166 132, 178 142, 178 156 C 178 172, 166 186, 150 194
+               C 134 186, 122 172, 122 156 C 122 142, 134 132, 150 132 Z"/>
+    </g>
+  </g>
+
+  <!-- ribbon -->
+  <g>
+    <path d="M40 196 L104 182 L118 196 L118 210 L104 202 Z" fill="url(#gold)" stroke="#a97a12" stroke-width="1"/>
+    <path d="M260 196 L196 182 L182 196 L182 210 L196 202 Z" fill="url(#gold)" stroke="#a97a12" stroke-width="1"/>
+    <path d="M60 190 L150 178 L240 190 L240 214 L150 202 L60 214 Z" fill="url(#gold)" stroke="#a97a12" stroke-width="1"/>
+    <text x="102" y="203" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" fill="#3a2a06">REPUBLIQUE</text>
+    <text x="198" y="203" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" fill="#3a2a06">DU NIGER</text>
+  </g>
+</svg>
